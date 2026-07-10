@@ -4,5 +4,5 @@ echo "Hostname : $(hostname)"
 echo "Current Directory : $(pwd)"
 echo "Date : $(date)"
 sudo apt update -y
-#sudo apt install -y nginx
+sudo apt install nginx -y
 #nginx --version
