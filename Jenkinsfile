@@ -19,7 +19,7 @@ pipeline {
 
     post {
         success {
-            echo "Pipeline passed"
+            echo "Pipeline passed S"
             mail to : "niteshkalangada8@gmail.com",
             subject : "SUCCESS : job '${env.JOB_NAME} [${env.BUILD_NUMBER}]' ",
             body:" '${env.JOB_NAME}' Build Succeeded. \n Check Build URL : '${env.BUILD_URL}' "
